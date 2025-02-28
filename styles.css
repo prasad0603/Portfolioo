@@ -1,0 +1,106 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transition: background 0.3s ease;
+}
+
+/* Resume Card */
+.resume-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    max-width: 700px;
+    transition: 0.3s ease-in-out;
+}
+
+.resume-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #0073b1;
+}
+
+header h2 {
+    font-size: 18px;
+    color: #555;
+}
+
+header p {
+    font-size: 15px;
+}
+
+section {
+    margin-bottom: 20px;
+    background: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 5px solid #0073b1;
+}
+
+h3 {
+    color: #0073b1;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+ul li {
+    font-size: 15px;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #121212;
+    color: #f5f5f5;
+}
+
+.dark-mode .resume-card {
+    background: #1e1e1e;
+    color: #f5f5f5;
+}
+
+.dark-mode section {
+    background: #252525;
+    border-left: 5px solid #00bfff;
+}
+
+/* Button */
+button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background: #0073b1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #005580;
+}
